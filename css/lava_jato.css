@@ -1,0 +1,29 @@
+.caixa-Carousel {
+    background-color: rgb(13, 13, 69);
+    padding: 20px;
+    margin: auto;
+}
+ 
+ /* div que armazena as div imagem */
+ .slideImg {
+    display: flex;
+    height: 300px;
+    gap: 20px;
+}
+ 
+ .slideImg div {
+    border-radius: 20px;
+    border: 3px rgb(13, 13, 69) solid;
+    flex: 1;
+    /*todas as imagens no mesmo tamanho no espaço da div*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    transition: all .6s;
+    cursor: pointer;
+ }
+ 
+ .slideImg div:hover {
+    flex: 2.3;
+    /*ao tocar na imagem, ela abre no tamanho maior que a apresentada*/
+ }
